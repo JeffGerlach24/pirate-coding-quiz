@@ -49,11 +49,12 @@ body {
 #display{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .display-prefix {
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .display-main-text {
