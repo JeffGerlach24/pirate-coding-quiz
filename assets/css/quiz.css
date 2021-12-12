@@ -19,3 +19,34 @@ body {
     min-width: 100px;
     padding: 5px;
 }
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 3px 0 navy;
+    transform: scale(1.05);
+    transform: transform 200ms;
+}
+
+.choice-prefix {
+    padding: 5px;
+    color: oldlace;
+}
+
+.choice-text {
+    padding: 5px;
+    width: 100%;
+    color: navy;
+}
+
+.correct {
+    background: limegreen;
+}
+
+.incorrect {
+    background: turquoise;
+}
+@media screen and (max-width: 775px) {
+    .choice-container {
+        min-width: 50px;
+    }
+}
