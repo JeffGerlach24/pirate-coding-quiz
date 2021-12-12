@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: navy;
+    font-size: 60px;
+    text-align: center;
+}
+.choice-container {
+    display: flex;
+    margin-bottom: 24px;
+    width: 100%;
+    border-radius: 50px;
+    background: crimson;
+    font-size: 24px;
+    min-width: 100px;
+    padding: 5px;
+}
