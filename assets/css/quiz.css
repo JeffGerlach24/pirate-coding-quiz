@@ -45,6 +45,35 @@ body {
 .incorrect {
     background: turquoise;
 }
+
+#display{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-prefix {
+    text-align: center;
+    font-size: 16px;
+}
+
+.display-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 50px;
+    height: 15px;
+    border: 25px lime;
+    margin-top: 7px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progessBarFull {
+    height: 100%;
+    background: lime;
+    width: 0%;
+}
 @media screen and (max-width: 775px) {
     .choice-container {
         min-width: 50px;
