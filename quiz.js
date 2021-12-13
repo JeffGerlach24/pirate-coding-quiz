@@ -102,8 +102,19 @@ getNewQuestion = () => {
             };
 
             selectedChoice.parentElement.classList.add(classToApply)
-            getNewQuestion()
+            
+            setTimeout(() => {
+                selectedChoice.parentElement.classList.remove(classToApply)
+                getNewQuestion()
+            }, timeout);
 
         }, 1000)
+})
 
+incrementScore = num => {
+    score +=num
+    scoreText.innerText = score
+}
+
+startQuiz()
 
