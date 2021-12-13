@@ -50,8 +50,8 @@ let questions = [
         choice3: 'The Going Merry',
         choice4: 'SMU',
         anwser: 'SMU',
-    },
-]
+    }
+];
 
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 5

@@ -1,65 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+h1 {
+    font-size: 72px;
+    color: navy;
+    margin-bottom: 25px;
+}
 
-  h1 {
-      font-size: 72px;
-      color: navy;
-      margin-bottom: 25px;
-  }
+h2 {
+    font-size: 18px;
+      olor: navy;
+}
 
-  h2 {
-      font-size: 18px;
-      color: navy;
-  }
+.container {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  .container {
-      width: 100vw;
-      height: 100vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
 
-  .flex-column {
-      display: flex;
-      flex-direction: column;
-  }
+.flex-center {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 800px;
+}
 
-  .flex-center {
-      justify-content: center;
-      align-items: center;
-  }
+.btn {
+    font-size: 24px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: oldlace;
+    background-color: crimson;
+    word-spacing: 3px;
+    margin: 12px;
+}
 
-  .btn {
-      font-size: 24px;
-      width: 50%;
-      text-align: center;
-      text-decoration: none;
-      color: oldlace;
-      background-color: crimson;
-      word-spacing: 3px;
-      margin: 12px;
-  }
-
-  .btn:hover {
-      cursor: pointer;
-      box-shadow: 0 2px 3px 0 navy;
-      transition: transform 200ms;
-      transform: scale(1.05);
-  }
-
-  .btn:disabled:hover {
-      cursor: not-allowed;
-  }
-
-  #highscore-btn {
-      background: crimson;
-  }
-
-  #highscore-btn:hover{
+.btn:hover {
+    cursor: pointer;
     box-shadow: 0 2px 3px 0 navy;
     transition: transform 200ms;
     transform: scale(1.05);
-  }
+}
+
+.btn:disabled:hover {
+    cursor: not-allowed;
+}
+
+#highscore-btn {
+    background: crimson;
+}
+
+#highscore-btn:hover{
+    box-shadow: 0 2px 3px 0 navy;
+    transition: transform 200ms;
+    transform: scale(1.05);
+}
   
