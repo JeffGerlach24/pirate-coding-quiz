@@ -86,7 +86,7 @@ getNewQuestion = () => {
 
         acceptingAnwsers = true
     }
-
+}
     choices.forEach(choice => {
         choice.addEventListener('click', => {
             if(!acceptingAnwsers) return
@@ -99,11 +99,11 @@ getNewQuestion = () => {
 
             if(classToApply === 'correct') {
                 incrementScore(SCORE_POINTS)
-            }
+            };
 
             selectedChoice.parentElement.classList.add(classToApply)
             getNewQuestion()
 
         }, 1000)
-    })
-}
+
+
